@@ -1,0 +1,170 @@
+html {
+  height: 100%;
+}
+body {
+  background-color: rgb(179, 179, 224);
+  display: flex;
+}
+.login-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.table {
+  width: 100%; /* Ensure the table takes up the full width */
+}
+
+.centered-cell {
+  text-align: center; /* Center the content horizontally */
+}
+
+.login-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.login-box .user-box label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+  
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #000000;
+  font-size: 12px;
+}
+
+.login-box form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #000000;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 40px;
+  letter-spacing: 4px
+}
+
+/* Stilurile pentru a centra butonul */
+.center-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Menu {
+  text-align: center;
+}
+
+.Menu-header {
+  background-color: #110350;
+  padding: 20px;
+  color: white;
+}
+
+.flower-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flower-card {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 200px;
+}
+
+.shopping-list {
+  margin-top: 50px;
+}
+
+.shopping-list-item {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #eee;
+  border: none;
+  padding: 0.5rem; /* Reduced padding */
+  width: 8em; /* Reduced width */
+  border-radius: 0.5rem; /* Reduced border radius */
+  color: rgb;
+  box-shadow: 0 0.4rem #dfd9d9;
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+button:active {
+  color: white;
+  box-shadow: 0 0.2rem #dfd9d9;
+  transform: translateY(0.2rem);
+}
+
+button:hover:not(:disabled) {
+  background: rgb(1, 24, 68);
+  color: white;
+  text-shadow: 0 0.1rem #ae9ef0;
+}
+
+button:disabled {
+  cursor: auto;
+  color: rgb(219, 225, 250);
+}
+
+.color
+{
+  color: #fff;
+}
+
